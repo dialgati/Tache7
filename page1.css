@@ -17,7 +17,7 @@ body{
         background-color: black;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1300px){
     .haut{
         width: 100%;
         height: 300px;
@@ -31,7 +31,7 @@ body{
       flex-wrap: wrap;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1300px){
     .droit ul{
         display: flex;
         flex-direction: column;
@@ -46,7 +46,7 @@ body{
       text-align: center;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1300px){
     .gauche p {
         margin-top: 10px;
         flex-direction: column;
@@ -95,7 +95,7 @@ body{
         flex-direction: column;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1300px){
     .menu{
         width: 100%;
         height: 600px;
@@ -124,7 +124,7 @@ body{
         border: none;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1300px){
     .liste ul li{
         display: flex;
        flex-direction: column;
@@ -144,7 +144,7 @@ body{
         margin-top: 10px;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1300px){
     .icon{
         display: flex;
        flex-direction: column;
@@ -158,7 +158,7 @@ body{
        margin-top: 20px;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1300px){
     .panier{
       margin-top: 20px;
      }
@@ -199,7 +199,7 @@ body{
         position: relative;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1300px){
     .main{
         width: 100%;
         height: 60vh;
@@ -235,7 +235,7 @@ body{
         position: absolute;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1300px){
     .puma img{
         width: 70px;
         height: 70px;
@@ -278,7 +278,7 @@ body{
        flex-direction: column;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1300px){
     .paragraphe p{
       margin-top: 70px;
       display: inline-block;
@@ -317,7 +317,7 @@ body{
         height: 55px;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1300px){
     .bouton {
         margin-top: 50px;
         text-align: center;
@@ -349,7 +349,7 @@ body{
         background-color: orangered;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1300px){
     .montre{
         width: 100%;
         height: 300px;
@@ -374,7 +374,7 @@ body{
         background-color: grey;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1300px){
     .airmax{
         width: 100%;
         height: 300px;
@@ -392,32 +392,32 @@ body{
     position: absolute;
     z-index: auto;
    border-top: 1px solid white;
-   width: 300px;
+   width: 200px;
    margin-top: 30px;
-   margin-left: 130px;
+   margin-left: 230px;
 }
 @media screen and (max-width: 576px){
     .trait1{
         position: absolute;
         z-index: auto;
-       border-top: 1px solid white;
-       width: 200px;
+       border-top: 3px solid white;
+       width: 90px;
        margin-top: 30px;
-       margin-left: 119px;
+       margin-left: 230px;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1300px){
     .trait1{
         position: absolute;
         z-index: auto;
-       border-top: 1px solid white;
-       width: 200px;
+       border-top: 3px solid white;
+       width: 90px;
        margin-top: 30px;
-       margin-left: 119px;
+       margin-left: 230px;
      }
 }
 .trait2{
-    border-bottom: 1px solid white;
+    border-bottom: 3px solid white;
     width: 300px;
     margin-top: 170px;
     margin-left: 130px;
@@ -426,26 +426,26 @@ body{
  }
  @media screen and (max-width: 576px){
     .trait2{
-        border-bottom: 1px solid white;
-        width: 200px;
+        border-bottom: 3px solid white;
+        width: 190px;
         margin-top: 170px;
-        margin-left: 120px;
+        margin-left: 130px;
         position: absolute;
         z-index: 2;
      }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1300px){
     .trait2{
-        border-bottom: 1px solid white;
-        width: 200px;
+        border-bottom: 3px solid white;
+        width: 190px;
         margin-top: 170px;
-        margin-left: 120px;
+        margin-left: 130px;
         position: absolute;
         z-index: 2;
      }
 }
  .trait3{
-    border-left: 1px solid white;
+    border-left: 3px solid white;
     width: 300px;
     height: 140px;
     margin-left: 430px;
@@ -455,20 +455,20 @@ body{
  }
  @media screen and (max-width: 576px){
     .trait3{
-        border-left: 1px solid white;
+        border-left: 3px solid white;
         width: 60px;
-        height: 140px;
+        height: 143px;
         margin-left: 320px;
         margin-top: 30px;
        position: absolute;
        z-index: 3;
      }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1300px){
     .trait3{
-        border-left: 1px solid white;
+        border-left: 3px solid white;
         width: 60px;
-        height: 140px;
+        height: 143px;
         margin-left: 320px;
         margin-top: 30px;
        position: absolute;
@@ -476,32 +476,32 @@ body{
      }
 }
  .trait4{
-    border-right: 1px solid white;
+    border-right: 3px solid white;
     width: 130px;
-    height: 140px;
+    height: 70px;
     margin-right: 100%;
-    margin-top: 30px;
+    margin-top: 100px;
    position: absolute;
    z-index: 4;
  }
  @media screen and (max-width: 576px) {
     .trait4{
-        border-right: 1px solid white;
+        border-right: 3px solid white;
         width: 130px;
-        height: 140px;
+        height: 70px;
         margin-right: 100%;
-        margin-top: 30px;
+        margin-top: 100px;
        position: absolute;
        z-index: 4;
      }
  }
- @media screen and (max-width: 768px) {
+ @media screen and (max-width: 1300px) {
     .trait4{
-        border-right: 1px solid white;
+        border-right: 3px solid white;
         width: 130px;
-        height: 140px;
+        height: 70px;
         margin-right: 100%;
-        margin-top: 30px;
+        margin-top: 100px;
        position: absolute;
        z-index: 4;
      }
@@ -546,7 +546,7 @@ body{
         align-items: center;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1300px){
     .boite .montre .airmax{
         flex-wrap: wrap;
         flex-direction: column;
